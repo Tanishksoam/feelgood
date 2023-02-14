@@ -1,0 +1,835 @@
+/*
+GOOGLE FONTS
+
+font-family: 'Audiowide', cursive;
+font-family: 'Babylonica', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Tourney', cursive;
+
+
+
+*/
+
+
+
+*{
+    background-color: rgb(236, 103, 114);
+    margin:0;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.logo{
+    position: fixed;
+    background-color: transparent;
+    margin-left:92vw;
+    margin-top: 5vh;
+    height: 100px;
+    width:100px;
+    
+}
+section{
+    max-width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+}
+section div, p{
+    background-color: transparent;
+    position: relative;
+}
+
+section img{
+    background-color: transparent;
+    position: relative;
+
+
+}
+
+.scroll-date{
+    background-color: transparent;
+    
+    align-items: center;
+    margin-left:10px;
+    width:150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dates{
+    background-color: transparent;
+    margin-top: 2vh;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Special Elite';
+    font-size: 6rem;
+}
+.date-color1{
+    color:#fdfdfd;
+}
+.date-color2{
+    color: #c97e9d;
+}
+.shift{
+    left:25px;
+}
+.main-date{
+    background-color: #fdfdfd;
+    margin-top: 3vh;
+    padding-top: 10px;
+    width:100px;
+    height:auto;
+    text-align: center;
+    border-radius: 25%;
+    font-family: 'Satisfy';
+    font-size: 2rem;
+}
+
+/*    Disclaimer    */
+
+.disclaimer {
+    background-image: linear-gradient(to left, #c42a72, #ce337d, #d73b88, #e14494, #ea4ca0);
+    max-width: 100vw;
+}
+
+.disclaimer .dash{
+    max-width: 80vw;
+    height:80vh;
+    border-style: dashed;
+    border-width: 12px;
+    border-color: #fdfdfd;
+    top: 10vh;
+    left: 10vw;
+    right: 10vw;
+}
+
+.disclaimer .warn{
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Tourney', cursive;
+    font-size: 8rem;
+    left:10vw;
+    color: #fdfdfd;
+    border-bottom: solid #fdfdfd 6px;
+}
+.disclaimer .ds-txt{
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    color: #fdfdfd;
+    font-size: 2rem;
+    line-height: 1.6;
+    top:25vh;
+    left:3rem;
+
+}
+
+/*          hero area           */
+
+.hero{
+    /*background-color: rgb(221, 91, 130);*/
+    background-image: linear-gradient(to top, #c74a6c, #cb4773, #ce457a, #d04382, #d2418a, #d4438c, #d6448e, #d84690, #da4b8c, #db5088, #dc5685, #dd5b82);    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.hero .welcome div{
+    background-color: transparent;
+}
+.greet{
+    padding-top:15vh;
+    padding-left: 10vw;
+    font-size: 15rem;
+    z-index:1;
+    color: #fdfdfd;
+}
+.halo{
+    padding-left: 10vw;
+    height:60vh;
+    width:auto;
+    rotate:15deg;
+    bottom: 10vh;
+    transform:translateY(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+
+.hero  .gift{
+    bottom: 180px;
+    height:auto;
+    width: 50vw;
+   
+}
+.small-t{
+    font-size: 2rem;
+    color:#fdfdfd;
+    font-family: Monaco, Comic;
+    z-index: 1;
+
+
+}
+.dashed{
+    background-color: transparent;
+    max-width: 45vw;
+    top:30px;
+}
+.msg{
+    left:30vw;
+    top:50px;
+    height:15vh;
+    width: auto;
+}
+
+/*        rose day        */
+.rose-day{
+    /*background-color:#db8faf ;*/
+    background-image: linear-gradient(to left top, #c07c98, #c7849f, #cd8ba7, #d493ae, #db9bb6, #db9bb6, #dc9ab5, #dc9ab5, #d691ad, #cf87a5, #c97e9d, #c27595);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    
+}
+.day{
+    background-color: transparent;
+    font-family: 'Babylonica', cursive;
+    font-size: 8rem;
+    padding-left: 3vh;
+    color:#fff1fc;
+    top: 10vh;
+}
+.hearts{
+    left:7vh;
+    position:absolute;
+    height: 30vh;
+    width: auto;
+    rotate:-20deg;
+    transform:scale(1);
+    top: 40px;
+    left: -1px;
+    animation: beat 1s ease-in-out infinite;
+}
+
+@keyframes beat {
+    0%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    31%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.rose-head{
+    z-index: 1;
+    color:#aa526a;
+    position: relative;
+    background-color: transparent;
+    text-align: right;
+    font-size: 175px;
+    top:-10vh;
+    right: -200px;
+}
+.rose-img{
+    margin-left: 10px;
+    padding: 0;
+    overflow: hidden;
+    height: 800px;
+    width: auto;
+    bottom: -10vh;
+    right: -10vw;
+}
+.rose-img img{
+    rotate:-15deg;
+}
+
+.roseday{
+    padding-top: 5vh;
+    padding-left: 50px;
+    z-index: 1;
+    color:#aa526a;
+    top:-20vh
+}
+.rose{
+    position: absolute;
+    height: 20vh;
+    width: auto;
+    left: 30vh;
+    bottom: 20vh;
+    transform: rotate(0deg);
+}
+.rose2{
+    position: absolute;
+    height: 20vh;
+    width: auto;
+    left: 50vh;
+    bottom: 20vh;
+    transform: rotateY(180deg);
+
+}
+
+
+/*          hug day        */
+
+
+.hug-day{
+    background-color: rgb(246,233,232);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.hug-day img{
+    height:90vh;
+    width:auto;
+    position:relative;
+    left:-300px;
+}
+
+.hugwriteup{
+    top: 10vh;
+    
+}
+.day2{
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Babylonica', cursive;
+    font-size: 10rem;
+    left: -45vw;
+    top: 30vh;
+    color: #ea6e93;
+}
+.hugday{
+    position: absolute;
+    color:#c5788c;
+    font-family: fantasy;
+    left: -45vw;
+    font-size: 2.7rem;
+}
+
+/* propose day*/
+.propose-day{
+    /*background-color: #f6e9e8;*/
+    background-image: linear-gradient(to top, #ddb5a6, #e3bfb5, #e8c9c3, #ecd3d0, #f0dedd, #f0dedd, #f0dedd, #f0dedd, #ecd3d0, #e8c9c3, #e3bfb5, #ddb5a6);    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.couple-hand{
+    height: 100vh;
+}
+.propose-day img{
+    height:90vh;
+    width:auto;
+    left: -8vw;
+    top:rem;
+}
+.proposetext{
+    width:60vw;
+    top: 15vh;
+    right: 10vh;
+}
+.proposeday{
+    color:#c5788c;
+    font-family: 'Macondo', cursive;
+    font-size: 2.5rem;
+}
+.day3{
+    background-color: transparent;
+    position: absolute;
+    color: #aa526a;
+    font-size: 13rem;
+    font-family: 'Mocando', satisfy, fantasy;
+    left: -5rem;
+}
+.propose-day span{
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    color: #aa526a;
+    font-size: 2.3rem;
+    font-family: Mocando, fantasy;
+    width: 10vw;
+    left: 28rem;
+    top: 20rem;
+}
+.proposetext{
+    display: flex;
+    flex-direction: column;
+}
+.couple-hand div .letterbox {
+    position:absolute;
+    transform: rotateY(180deg);
+    left:20vw;
+    height: 50vh;
+    width: 33vw;
+   top:-15rem;
+}
+.proposetext div .miss {
+    position:absolute;
+    height: 40vh;
+    width: auto;
+    left: 30vh;
+    top:15rem;
+}
+
+/*      chocolate day  */
+
+
+.chocolate-day{
+    background-color:rgba(254, 136, 189, 0.914) ;
+    background-image: linear-gradient(to left top, #ff65a1, #ff74ae, #ff83ba, #ff91c5, #ff9ecf, #ff9ecf, #ff9ecf, #ff9ecf, #ff91c5, #ff83ba, #ff74ae, #ff65a1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.cocowriteup{
+    left: 5vw;
+}
+.cocowriteup .back{
+    position: absolute;
+    opacity: 50%;
+    top: 10rem;
+    z-index: 1;
+    rotate: 15deg;
+}
+.cocowriteup .cocohead{
+    background: transparent;
+    position:relative;
+    font-family: 'Knewave', cursive;
+    color: #ae3b67;
+    text-shadow: 2px #909090;
+    font-size: 7rem;
+    z-index: 2;
+    width: 50vw;
+    top: 5rem;
+    left:-2rem;
+}
+.cocowriteup .cocoday{
+    color:#fdfdfd;
+    font-family: 'Special Elite';
+    font-size: 2.5rem;
+    top: 20vh;
+}
+
+.coco-img{
+    top: 4em;
+    right: 2rem;
+}
+
+/*  Teddy day    */
+
+
+.teddy-day{
+    background-color: #dd5b82;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.winne{
+    background-color: transparent;
+    font-family: fantasy;
+    font-size: 5rem;
+    color: #ffffff;
+}
+.ted-img{
+    /* left:900px;
+    top: 22vh; */
+    z-index: 100;
+}
+.ted-img .winnethepooh{
+    position: absolute;
+    height: 85vh;
+    width: auto;
+    top:-40rem;
+    left: 55rem;
+
+}
+.teddyday{
+    color: #fdfdfd;
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: fantasy;
+    z-index: 110;
+    top:-25rem;
+    left: 20rem;
+    width: 50vw;
+    text-align: center;
+}
+.teddy-head{
+    background-color: transparent;
+    position: absolute;
+    width: 50wv;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 7.5rem;
+    padding-left: 15vh;
+    color: #fdfdfd;
+    left: 50px;
+
+}
+
+/*     promise day          */
+.promise-day {
+    background-color:rgb(227, 125, 133) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.promise-head{
+    background-color: transparent;
+    position: absolute;
+    width: 50wv;
+    font-family: 'special elite', cursive;
+    font-size: 8rem;
+    left:-35rem;
+    top:80vh;
+    color: #fdfdfd;
+
+}
+.promise-day img{
+    height:70vh;
+    width:auto;
+    top:70px;
+}
+.promisday{
+    top:20vh;
+    right:3rem;
+    font-size: 1.7rem;
+
+}
+.promisewriteup .lock{
+    top: 150px;
+    height: 40vh;
+    left: 80px;
+}
+
+/*   kiss day      */
+
+
+.kiss-day{
+    background-color: rgb(249,229,236);
+    background-image: linear-gradient(to right top, #fefffe, #f4f5ea, #f5e8d6, #fad8ca, #fcc8ca);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    
+}
+
+
+.kiss-day img{
+    top: 10vh;
+    right: 1vw;
+    height:90vh;
+    width:auto;
+}
+
+.day .kiss-head{
+    background-color: transparent;
+    position:absolute;
+    color:#aa526a;
+    font-family:'special elite' ;
+    width: 80vw;
+}
+.day{
+    left:5vw;
+}
+.day .kissday{
+    color:#c7375d;
+    top: 30vh;
+}
+.kiss-day .scroll-date .dates{
+    background-color: transparent;
+}
+.kiss-day .scroll-date .main-date{
+    background-color: #c07c98;
+    color: #fdfdfd;
+}
+
+.kiss-day .day .target{
+    background-color: transparent;
+    position: absolute;
+    height: 55vh;
+    top: 40vh;
+    left: 20vh;
+}
+
+/*    valentine day      */
+.valentine-day{
+    background-color:#feb7d7bf ;
+    background-image: linear-gradient(to right top, #f196ca, #f49ccc, #f6a2ce, #f9a9d1, #fbafd3, #fcafd3, #fdafd2, #feafd2, #fea9cf, #fea2cb, #fd9cc8, #fd95c4);
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.ques p{
+    background-color: transparent;
+    position: absolute;
+    color:rgb(236, 103, 114);
+    font-family: 'Audiowide', cursive;
+    font-size: 4.5rem;
+    width: 65vw;
+    top: 23vh;
+    left: 8rem;
+}
+.ques span{
+    background-color: transparent;
+    font-size: 7rem;
+}
+.val-img{
+    position: absolute;
+    left: 800px;
+}
+
+.ques .bal{
+    height:40vh;
+    top: 50vh;
+    left: 5vw;
+    transform: translateX(0px);
+    transform: translateY(0px);
+    animation: floating 25s linear infinite ;
+}
+
+
+.ans p{
+    background-color: transparent;
+    position: absolute;
+    color:rgb(236, 103, 114);
+    font-family: 'Audiowide', cursive;
+    font-size: 5rem;
+    width: 60vw;
+    z-index: 100;
+    top:10vh;
+    left:10vw;
+}
+.ans span{
+    background-color: transparent;
+    font-size: 7rem;
+}
+.val-img{
+    position: absolute;
+    left: 900px;
+}
+
+.ans .bal{
+    height:40vh;
+    top: -5vh;
+    left: 5vw;
+    transform: translateX(0px);
+    transform: translateY(0px);
+    animation: floating2 3s linear infinite ;
+}
+.ans .drink{
+    height:60vh;
+    top: 50vh;
+    left: 30vw;
+}
+@keyframes floating2{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-18px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes floating{
+    0%{
+      transform:translateX(0px)translateY(0px);
+    }
+    9%{
+        transform:translateX(100px)translateY(19px);
+      }
+    10%{
+        transform:translateX(100px)translateY(20px);
+      }
+    11%{
+        transform:translateX(100px)translateY(19px);
+      }
+    
+    20%{
+      transform:translateX(200px)translateY(-20px);
+    }
+    30%{
+        transform:translateX(300px)translateY(20px);
+      }
+    40%{
+      transform:translateX(400px)translateY(-20px);
+    }
+    50%{
+        transform:translateX(450px)translateY(0px);
+      }
+    60%{
+        transform:translateX(400px)translateY(20px);
+      }
+    70%{
+        transform:translateX(300px)translateY(-20px);
+      }
+    80%{
+        transform:translateX(200px)translateY(20px);
+      }
+    90%{
+        transform:translateX(100px)translateY(-20px);
+      }
+    100%{
+        transform:translateX(0px)translateY(0px);
+      }
+}
+
+.wish_center{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.valentine{
+    background-image: linear-gradient(to right top, #f5aeca, #f7bcd7, #fac9e2, #fcd7ed, #ffe4f6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    
+}
+.wish_center .wish{
+    background-color: transparent;
+    font-family: "Audiowide";
+    font-size: 13rem;
+    text-align: center;
+    color: #c5788c;
+    text-shadow: 6px 6px 5px #aa526a;
+    z-index: 1;
+}
+
+.valentine .date14{
+    position:absolute;
+    height: 40vh;
+    top:57vh;
+    left:12vw;
+    z-index:100;
+    
+}
+
+.valentine .card{
+    position:absolute;
+    height: 40vh;
+    rotate:10deg;
+    transform: rotateZ(10deg);
+    animation: rotatee 6s ease-in-out infinite;
+}
+
+@keyframes rotatee {
+    0%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(10deg);
+    }
+    75%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(10deg);
+    }
+}
+
+.valentine .gift3{
+    height:50vh;
+    position: absolute;
+    left: 70vw;
+    top: 55vh;
+    transform: rotateY(0deg);
+    animation: rooo 6s ease-in-out infinite;
+}
+
+@keyframes rooo {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(20deg);
+    }
+    50%{
+        transform: rotateY(0deg);
+    }
+    75%{
+        transform: rotateY(-20deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+
+.chocolate-day img{
+    height:70vh;
+    width:auto;
+}.valentine-day img{
+    height:90vh;
+    width:auto;
+}
+
+
+.trans{
+    background-color: transparent;
+}
+
+.blank{
+    padding-top: 5vh;
+}
+
+.hero .small-t{
+    font-size: 2rem;
+    color:#fdfdfd;
+    font-family: Monaco, Comic;
+    z-index: 1;
+
+
+}
+
+.msg{
+    padding-right:40vw;
+    height:15vh;
+    width: auto;
+}
